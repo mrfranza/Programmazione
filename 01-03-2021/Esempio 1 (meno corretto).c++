@@ -4,7 +4,7 @@
 //Controllo successivo del valore minore
 //
 
-//ESEMPIO 1 (meno corretto, usa troppi controlli e sbaglia/non-stampa nel caso in cui
+//ESEMPIO 1 (meno corretto, usa troppi controlli e sbaglia(in certi casi)/non-stampa nel caso in cui
 //           2 o 3 valori sono uguali)
 
 #include <iostream>
