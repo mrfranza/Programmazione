@@ -22,16 +22,16 @@ main()
 
     //inizializzo min alla prima posizione del vettore A e il contatore i a
     //1 (seconda posizione del vettore, dato che la prima è già caricata nel controllo);
-    int min = A[0], i = 1;
-    while (i < 100)
+    int min = A[0], j = 1;
+    while (j < 100)
     {
         //se il valore del vettore in questione è più piccolo a quello caricato o controllato
         //in precedenza viene aggiornato il nuovo numero minimo
-        if (A[i] < min)
+        if (A[j] < min)
         {
-            min = A[i];
+            min = A[j];
         }
-        i = i + 1; //i++
+        j = j + 1; //j++
     }
 
     //Stampo il risultato (post)
