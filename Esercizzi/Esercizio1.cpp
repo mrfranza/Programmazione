@@ -18,16 +18,15 @@ main()
     {
         if (A[j] >= 0)
         {
-            mag_z = mag_z + A[j];
+            mag_z = mag_z + 1;
         }
         else
         {
-            min_z = min_z + A[j];
+            min_z = min_z + 1;
         }
         j = j + 1;
     }
 
-    cout << "La somma dei valori minori di 0 è: " << min_z << endl;
-    cout << "La somma dei valori maggiori o uguali a 0 è: " << mag_z << endl;
-    cout << "I due valori sommati  producono: " << min_z + mag_z << endl;
+    cout << "i valori minori di 0 sono: " << min_z << endl;
+    cout << "i valori maggiori o uguali a 0 sono: " << mag_z << endl;
 }
